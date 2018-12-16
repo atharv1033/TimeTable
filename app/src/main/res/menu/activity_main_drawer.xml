@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_GetList"
+
+            android:title="See Time Table of a Date" />
+        <item
+            android:id="@+id/nav_tomorrow"
+
+            android:title="Tomorrow's Time Table" />
+
+        <item
+            android:id="@+id/nav_everydayList"
+
+            android:title="Daily Time Table" />
+        <item
+            android:id="@+id/nav_weeklyList"
+
+            android:title="Weekly Time Table" />
+
+
+        <item android:id="@+id/Nav_Notes"
+
+            android:title="Notes" />
+
+
+
+
+    </group>
+
+
+</menu>
